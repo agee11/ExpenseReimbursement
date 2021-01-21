@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+
+.open-ticket{
+	cursor: pointer;
+}
+
+.open-ticket:hover{
+	color: yellow !important;
+}

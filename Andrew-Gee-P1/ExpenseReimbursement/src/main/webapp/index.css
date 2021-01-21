@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image: url("landing.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+}
+
+#loginMenu{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: transparent;
+	border-radius: 20px;
+	padding: 50px;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+
+.error-text{
+	margin: 10px;
+	color: white;
+	background-color: salmon;
+	border-radius: .25rem;
+	padding: .375rem .75rem;
+}
